@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $f-main;
+	background-color: $c-light;
+	min-height: 100vh;
+}
+
+.wrapper {
+	min-height: 100vh;
+}

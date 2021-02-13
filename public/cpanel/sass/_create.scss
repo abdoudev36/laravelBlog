@@ -1,0 +1,80 @@
+// cpanel create page
+.create-page {
+	padding: 3rem 0;
+
+	.create-category, .create-post {
+		h3 {
+			font-family: $f-head;
+			font-size: 1.3rem;
+			font-weight: bold;
+			position: relative;
+			color: $c-dark;
+
+			&::after {
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: -0.7rem;
+				width: 70px;
+				height: 1px;
+				background-color: rgba($c-dark, 0.3);
+			}
+		}
+	}
+
+	// create categoey
+	.create-category {
+		padding: 2rem;
+
+		.category-form {
+			.form-control {
+				height: 50px;
+
+				&:focus {
+					box-shadow: 0px 0px 0px 3px $c-main;
+					border: none;
+				}
+			}
+
+			button {
+				width: 150px;
+				height: 50px;
+				background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+				color: white;
+				border-radius: 30px;
+			}
+		}
+	}
+
+	// create post
+	.create-post {
+		padding: 2rem;
+
+		// form group
+		.form-group {
+			margin-bottom: 1.3rem;
+
+			.form-control, .form-select {
+				
+				height: 50px;
+				&:focus {
+					box-shadow: 0px 0px 0px 3px $c-main;
+					border: none;
+				}
+			}
+
+			textarea.form-control {
+				height: 200px;
+				resize: unset;
+			}
+		}
+
+		.submit-btn {
+			width: 150px;
+			height: 50px;
+			background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+			color: white;
+			border-radius: 30px;
+		}
+	}
+}

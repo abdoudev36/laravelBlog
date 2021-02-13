@@ -1,0 +1,59 @@
+// comments page
+.comments-page {
+	padding: 3rem 0;
+
+	.comment {
+		padding: 2rem;
+
+		// info
+		.info {
+
+			// date , author
+			.date, .author {
+				span {
+					color: $c-dark;
+
+					&.icon {
+						color: $c-main;
+					}
+				}
+			}
+		}
+
+		// body
+		.body {
+			color: $c-dark;
+		}
+
+		// actions
+		.actions {
+			// read-more
+			.read-more, .update {
+				width: 80px;
+				height: 40px;
+				border-radius: 30px;
+				color: white;
+			}
+
+			// read more
+			.read-more {
+				background-color: $c-dark;
+			}
+
+			// update
+			.update {
+				background-color: #2196F3;
+			}
+
+			.delete-form {
+				button {
+					width: 80px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: #fb4545;
+					color: white;
+				}
+			}
+		}
+	}
+}

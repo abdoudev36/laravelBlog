@@ -1,0 +1,30 @@
+// main navbar
+.main-navbar {
+	height: 70px;
+
+	.logo {
+		font-family: $f-head;
+		font-size: 1.1rem;
+		color: $c-dark;
+	}
+
+	.navbar-list {
+		.nav-link {
+			color: $c-dark;
+
+			&:hover, &.active {
+				color: $c-main;
+				border-bottom: 1px solid
+			}
+		}
+	}
+
+	.navbar-bars {
+		display: none;
+	}
+}
+
+// toggle navbar clas
+.toggleNavbar {
+	transform: scale(1) !important;
+}

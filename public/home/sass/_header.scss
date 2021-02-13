@@ -1,0 +1,45 @@
+// main header
+.main-header {
+
+	// top text
+	.top-text {
+		min-height: 100px;
+
+		h2 {
+			font-family: $f-head;
+			font-size: 2.5rem;
+			font-weight: bold
+		}
+
+		h3 {
+			font-size: 1.3rem;
+		}
+
+		.social-links {
+			.link {
+				margin-left: 1rem;
+				font-size: 1.5rem;
+				color: $c-dark;
+			}
+		}
+	}
+
+	// main-navbar
+	.main-navbar {
+		.container {
+			height: 70px;
+
+			// navbar list
+			.navbar-list {
+				.link {
+					margin-left: 1rem;
+					color: $c-dark;
+
+					&.active, &:hover {
+						color: $c-main;
+					}
+				}
+			}
+		}
+	}
+}

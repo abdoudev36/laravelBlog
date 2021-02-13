@@ -1,0 +1,58 @@
+// overview
+.overview {
+	padding: 3rem 0;
+
+	h3 {
+		font-size: 1.3rem;
+		font-family: $f-head;
+	}
+
+	.item {
+		width: 32%;
+		height: 180px;
+		padding: 1.5rem;
+		border-radius: 5px;
+		margin-bottom: 1.5rem;
+
+		// text
+		.text {
+			.icon {
+				font-size: 2.5rem;
+				color: white
+			}
+
+			p {
+				font-size: 1.1rem;
+				font-family: $f-head;
+				color: white
+			}
+		}
+
+		// number
+		.number {
+			font-family: $f-head;
+			font-size: 2rem;
+			color: white
+		}
+
+		// one
+		&:first-of-type {
+			background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+		}
+
+		// two
+		&:nth-of-type(2) {
+			background-image: linear-gradient(to right, #e8b456, #ecc32c);
+		}
+
+		// three
+		&:nth-of-type(3) {
+			background-image: linear-gradient(to right, #706eff, #3e32f5);
+		}
+
+		// four
+		&:nth-of-type(4) {
+			background-image: linear-gradient(to right, #5becb0, #32f56e);
+		}
+	}
+}

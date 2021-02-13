@@ -1,0 +1,75 @@
+// posts
+.posts-page {
+	padding: 3rem 0;
+
+	.post {
+		width: 100%;
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+
+		// info
+		.info {
+			.author, .date, .category {
+				color: $c-dark;
+
+				.icon {
+					color: $c-main;
+				}
+			}
+		}
+
+		// title
+		.title {
+			a {
+				font-family: $f-head;
+				font-weight: bold;
+				font-size: 1.5rem;
+				color: $c-dark;
+
+				&:hover {
+					color: $c-main
+				}
+			}
+		}
+
+		// body
+		.body {
+			p {
+				line-height: 1.7;
+				color: $c-dark;
+			}
+		}
+
+		// actions
+		.actions {
+
+			// read-more
+			.read-more, .update {
+				width: 80px;
+				height: 40px;
+				border-radius: 30px;
+				color: white;
+			}
+
+			// read more
+			.read-more {
+				background-color: $c-dark;
+			}
+
+			// update
+			.update {
+				background-color: #2196F3;
+			}
+
+			.delete-form {
+				button {
+					width: 80px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: #fb4545;
+					color: white;
+				}
+			}
+		}
+	}
+}

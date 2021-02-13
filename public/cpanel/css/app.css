@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Raleway:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+}
+
+.main-navbar {
+  height: 70px;
+}
+.main-navbar .logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #020202;
+}
+.main-navbar .navbar-list .nav-link {
+  color: #020202;
+}
+.main-navbar .navbar-list .nav-link:hover, .main-navbar .navbar-list .nav-link.active {
+  color: #fb4545;
+  border-bottom: 1px solid;
+}
+.main-navbar .navbar-bars {
+  display: none;
+}
+
+.toggleNavbar {
+  transform: scale(1) !important;
+}
+
+.overview {
+  padding: 3rem 0;
+}
+.overview h3 {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+}
+.overview .item {
+  width: 32%;
+  height: 180px;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+.overview .item .text .icon {
+  font-size: 2.5rem;
+  color: white;
+}
+.overview .item .text p {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.overview .item .number {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.overview .item:first-of-type {
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+}
+.overview .item:nth-of-type(2) {
+  background-image: linear-gradient(to right, #e8b456, #ecc32c);
+}
+.overview .item:nth-of-type(3) {
+  background-image: linear-gradient(to right, #706eff, #3e32f5);
+}
+.overview .item:nth-of-type(4) {
+  background-image: linear-gradient(to right, #5becb0, #32f56e);
+}
+
+.create-page {
+  padding: 3rem 0;
+}
+.create-page .create-category h3, .create-page .create-post h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: relative;
+  color: #020202;
+}
+.create-page .create-category h3::after, .create-page .create-post h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.7rem;
+  width: 70px;
+  height: 1px;
+  background-color: rgba(2, 2, 2, 0.3);
+}
+.create-page .create-category {
+  padding: 2rem;
+}
+.create-page .create-category .category-form .form-control {
+  height: 50px;
+}
+.create-page .create-category .category-form .form-control:focus {
+  box-shadow: 0px 0px 0px 3px #fb4545;
+  border: none;
+}
+.create-page .create-category .category-form button {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+  border-radius: 30px;
+}
+.create-page .create-post {
+  padding: 2rem;
+}
+.create-page .create-post .form-group {
+  margin-bottom: 1.3rem;
+}
+.create-page .create-post .form-group .form-control, .create-page .create-post .form-group .form-select {
+  height: 50px;
+}
+.create-page .create-post .form-group .form-control:focus, .create-page .create-post .form-group .form-select:focus {
+  box-shadow: 0px 0px 0px 3px #fb4545;
+  border: none;
+}
+.create-page .create-post .form-group textarea.form-control {
+  height: 200px;
+  resize: unset;
+}
+.create-page .create-post .submit-btn {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+  border-radius: 30px;
+}
+
+.posts-page {
+  padding: 3rem 0;
+}
+.posts-page .post {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.posts-page .post .info .author, .posts-page .post .info .date, .posts-page .post .info .category {
+  color: #020202;
+}
+.posts-page .post .info .author .icon, .posts-page .post .info .date .icon, .posts-page .post .info .category .icon {
+  color: #fb4545;
+}
+.posts-page .post .title a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #020202;
+}
+.posts-page .post .title a:hover {
+  color: #fb4545;
+}
+.posts-page .post .body p {
+  line-height: 1.7;
+  color: #020202;
+}
+.posts-page .post .actions .read-more, .posts-page .post .actions .update {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+}
+.posts-page .post .actions .read-more {
+  background-color: #020202;
+}
+.posts-page .post .actions .update {
+  background-color: #2196F3;
+}
+.posts-page .post .actions .delete-form button {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fb4545;
+  color: white;
+}
+
+.categories-page {
+  padding: 3rem 0;
+}
+.categories-page ul li {
+  height: 70px;
+}
+.categories-page ul li .actions .update {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  background-color: #2196F3;
+}
+.categories-page ul li .actions .delete-form button {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fb4545;
+  color: white;
+}
+
+.comments-page {
+  padding: 3rem 0;
+}
+.comments-page .comment {
+  padding: 2rem;
+}
+.comments-page .comment .info .date span, .comments-page .comment .info .author span {
+  color: #020202;
+}
+.comments-page .comment .info .date span.icon, .comments-page .comment .info .author span.icon {
+  color: #fb4545;
+}
+.comments-page .comment .body {
+  color: #020202;
+}
+.comments-page .comment .actions .read-more, .comments-page .comment .actions .update {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+}
+.comments-page .comment .actions .read-more {
+  background-color: #020202;
+}
+.comments-page .comment .actions .update {
+  background-color: #2196F3;
+}
+.comments-page .comment .actions .delete-form button {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fb4545;
+  color: white;
+}
+
+.messages-page {
+  padding: 3rem 0;
+}
+.messages-page .message {
+  padding: 2rem;
+}
+.messages-page .message .info .date span, .messages-page .message .info .author span, .messages-page .message .info .subject span, .messages-page .message .info .email span {
+  color: #020202;
+}
+.messages-page .message .info .date span.icon, .messages-page .message .info .author span.icon, .messages-page .message .info .subject span.icon, .messages-page .message .info .email span.icon {
+  color: #fb4545;
+}
+.messages-page .message .body {
+  color: #020202;
+}
+.messages-page .message .actions .reply {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  color: white;
+  background-color: #2196F3;
+}
+.messages-page .message .actions .delete-form button {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fb4545;
+  color: white;
+}
+
+.profile-page {
+  padding: 3rem 0;
+}
+.profile-page .container {
+  padding: 2rem;
+}
+.profile-page .container ul li {
+  height: 60px;
+}
+.profile-page .container a {
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  border-radius: 30px;
+}
+
+.updateProfile-page {
+  padding: 3rem 0;
+}
+.updateProfile-page .update-form {
+  padding: 1rem;
+}
+.updateProfile-page .update-form h3 {
+  height: 70px;
+  padding: 1rem;
+  border-radius: 35px;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+}
+.updateProfile-page .update-form .form-group {
+  margin-bottom: 1.2rem;
+}
+.updateProfile-page .update-form .form-group .form-control {
+  height: 50px;
+}
+.updateProfile-page .update-form button {
+  height: 50px;
+  width: 130px;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+  border-radius: 30px;
+}
+.updateProfile-page .update-form button:hover {
+  color: #fb4545;
+  border: 1px solid;
+  background-image: unset;
+}
+
+/* Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .overview .item {
+    width: 48%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .main-navbar {
+    height: 70px;
+  }
+  .main-navbar .navbar-list {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    height: calc(100vh - 70px);
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid;
+    padding-top: 1rem;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  .main-navbar .navbar-list .nav-link {
+    color: #020202;
+    padding: unset;
+    margin: unset;
+    width: 100% !important;
+    height: 50px !important;
+    justify-content: flex-start !important;
+  }
+  .main-navbar .navbar-list .nav-link:hover, .main-navbar .navbar-list .nav-link.active {
+    color: #fb4545;
+    border: none;
+  }
+  .main-navbar .navbar-list form {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+  .main-navbar .navbar-bars {
+    display: block;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+}
+/* Large devices (laptops/desktops, 767px and up) */
+@media only screen and (max-width: 767px) {
+  .overview .item {
+    width: 100%;
+  }
+
+  .create-page .create-category, .create-page .create-post {
+    padding: 1rem;
+  }
+
+  .posts-page .post {
+    padding: 1rem;
+  }
+
+  .comments-page .comment {
+    padding: 1rem;
+  }
+
+  .messages-page .message {
+    padding: 1rem;
+  }
+
+  .profile-page .container {
+    padding: 1rem !important;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

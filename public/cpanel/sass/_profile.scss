@@ -1,0 +1,62 @@
+// profile-page
+.profile-page {
+	padding: 3rem 0;
+
+	.container {
+		padding: 2rem;
+
+		ul {
+			li {
+				height: 60px;
+			}
+		}
+
+		a {
+			height: 50px;
+			width: 150px;
+			color: white;
+			background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+			border-radius: 30px;
+		}
+	}
+}
+
+.updateProfile-page {
+	padding: 3rem 0;
+
+	.update-form {
+		padding: 1rem;
+
+		h3 {
+			height: 70px;
+			padding: 1rem;
+			border-radius: 35px;
+			font-size: 1.3rem;
+			font-family: $f-head;
+			background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+			color: white
+		}
+
+		.form-group {
+			margin-bottom: 1.2rem;
+
+			.form-control {
+				height: 50px;
+			}
+		}
+
+		button {
+			height: 50px;
+			width: 130px;
+			background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+			color: white;
+			border-radius: 30px;
+
+			&:hover {
+				color: $c-main;
+				border: 1px solid;
+				background-image: unset;
+			}
+		}
+	}
+}

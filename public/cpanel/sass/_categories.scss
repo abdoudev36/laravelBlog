@@ -1,0 +1,32 @@
+// categories-page
+.categories-page {
+	padding: 3rem 0;
+
+	ul {
+		li {
+			height: 70px;
+
+			.actions {
+				// update
+				.update {
+					width: 80px;
+					height: 40px;
+					border-radius: 30px;
+					color: white;
+					background-color: #2196F3;
+				}
+
+				// delete
+				.delete-form {
+					button {
+						width: 80px;
+						height: 40px;
+						border-radius: 30px;
+						background-color: #fb4545;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}

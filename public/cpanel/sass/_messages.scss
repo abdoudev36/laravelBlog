@@ -1,0 +1,50 @@
+// messages
+.messages-page {
+	padding: 3rem 0;
+
+	.message {
+		padding: 2rem;
+
+		// info
+		.info {
+
+			// date , author
+			.date, .author, .subject, .email {
+				span {
+					color: $c-dark;
+
+					&.icon {
+						color: $c-main;
+					}
+				}
+			}
+		}
+
+		// body
+		.body {
+			color: $c-dark;
+		}
+
+		// actions
+		.actions {
+			// read-more
+			.reply {
+				width: 80px;
+				height: 40px;
+				border-radius: 30px;
+				color: white;
+				background-color: #2196F3;
+			}
+
+			.delete-form {
+				button {
+					width: 80px;
+					height: 40px;
+					border-radius: 30px;
+					background-color: #fb4545;
+					color: white;
+				}
+			}
+		}
+	}
+}

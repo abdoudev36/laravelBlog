@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Raleway:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.main-header .top-text {
+  min-height: 100px;
+}
+.main-header .top-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.main-header .top-text h3 {
+  font-size: 1.3rem;
+}
+.main-header .top-text .social-links .link {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #020202;
+}
+.main-header .main-navbar .container {
+  height: 70px;
+}
+.main-header .main-navbar .container .navbar-list .link {
+  margin-left: 1rem;
+  color: #020202;
+}
+.main-header .main-navbar .container .navbar-list .link.active, .main-header .main-navbar .container .navbar-list .link:hover {
+  color: #fb4545;
+}
+
+.content-wrapper {
+  padding: 3rem 0;
+  min-height: 70vh;
+}
+.content-wrapper .container .posts-section {
+  width: 70%;
+}
+.content-wrapper .container .posts-section .post {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.content-wrapper .container .posts-section .post .info .author, .content-wrapper .container .posts-section .post .info .date, .content-wrapper .container .posts-section .post .info .category {
+  color: #020202;
+}
+.content-wrapper .container .posts-section .post .info .author .icon, .content-wrapper .container .posts-section .post .info .date .icon, .content-wrapper .container .posts-section .post .info .category .icon {
+  color: #fb4545;
+}
+.content-wrapper .container .posts-section .post .title a {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #020202;
+}
+.content-wrapper .container .posts-section .post .title a:hover {
+  color: #fb4545;
+}
+.content-wrapper .container .posts-section .post .body p {
+  line-height: 1.7;
+  color: #020202;
+}
+.content-wrapper .container .posts-section .post .read-more {
+  width: 140px;
+  height: 50px;
+  background-color: #020202;
+  border-radius: 30px;
+  color: white;
+}
+.content-wrapper .container .posts-section .post .read-more:hover {
+  color: #020202;
+  border: 1px solid;
+  background-color: unset;
+}
+.content-wrapper .container .posts-section.post-page .post .title {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.content-wrapper .container .posts-section.post-page .post .body img {
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.content-wrapper .container .posts-section.post-page .post .body ul, .content-wrapper .container .posts-section.post-page .post .body ol {
+  padding-left: 1rem;
+  line-height: 1.7;
+  color: #020202;
+}
+.content-wrapper .container .posts-section.post-page .post .body p {
+  line-height: 1.7;
+  color: #020202;
+}
+.content-wrapper .container .aside-section {
+  width: 28%;
+}
+.content-wrapper .container .aside-section .search-form {
+  height: 100px;
+}
+.content-wrapper .container .aside-section .search-form .form-control, .content-wrapper .container .aside-section .search-form button {
+  height: 50px;
+}
+.content-wrapper .container .aside-section .search-form .form-control:focus {
+  box-shadow: 0px 0px 0px 3px #020202;
+  border: none;
+}
+.content-wrapper .container .aside-section .search-form button {
+  border: none;
+  background-color: #020202;
+  color: white;
+  width: 70px;
+}
+.content-wrapper .container .aside-section .recent-posts h3, .content-wrapper .container .aside-section .category h3 {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.content-wrapper .container .aside-section .category .cats .cat-link {
+  color: #020202;
+  height: 60px;
+  border-bottom: 1px dashed rgba(2, 2, 2, 0.3);
+}
+.content-wrapper .container .aside-section .category .cats .cat-link:last-of-type {
+  border-bottom: none;
+}
+.content-wrapper .container .aside-section .category .cats .cat-link:hover {
+  color: #fb4545;
+}
+.content-wrapper .container .aside-section .recent-posts .links .post-link {
+  margin-bottom: 1rem;
+  color: #020202;
+}
+.content-wrapper .container .aside-section .recent-posts .links .post-link:hover {
+  color: #fb4545;
+}
+
+.footer {
+  padding-top: 3rem;
+}
+.footer .quick-links .link {
+  color: #020202;
+}
+.footer .quick-links .link:hover, .footer .quick-links .link.active {
+  color: #fb4545;
+}
+.footer .copy-rights h3, .footer .copy-rights p {
+  color: #020202;
+}
+.footer .copy-rights h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .main-header .top-text {
+    min-height: 100px;
+  }
+  .main-header .top-text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .main-header .top-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .content-wrapper .container .posts-section, .content-wrapper .container .aside-section {
+    width: 100%;
+  }
+  .content-wrapper .container .posts-section .post .title a {
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

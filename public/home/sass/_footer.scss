@@ -1,0 +1,27 @@
+// footer
+.footer {
+	padding-top: 3rem;
+	// background-color: $c-dark;
+
+	.quick-links {
+		.link {
+			color: $c-dark;
+
+			&:hover, &.active {
+				color: $c-main;
+			}
+		}
+	}
+
+	// copy rights
+	.copy-rights {
+		h3 , p{
+			color: $c-dark;
+		}
+
+		h3{
+			font-family: $f-head;
+			font-size: 1.1rem;
+		}
+	}
+}

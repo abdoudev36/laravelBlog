@@ -1,0 +1,43 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) 
+{
+// main header
+.main-header {
+
+	// top text
+	.top-text {
+		min-height: 100px;
+
+		h2 {
+			font-family: $f-head;
+			font-size: 2rem;
+			font-weight: bold
+		}
+
+		h3 {
+			font-size: 1.3rem;
+		}
+	}
+}
+
+// content-wrapper 
+.content-wrapper {
+	.container {
+		// post section
+		.posts-section, .aside-section {
+			width: 100%;
+		}
+
+		// post section
+		.posts-section {
+			.post {
+				.title {
+					a {
+						font-size: 1.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+}

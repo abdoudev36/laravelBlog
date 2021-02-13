@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Raleway:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.signup-form,
+.login-form {
+  width: 500px;
+  min-height: 400px;
+  padding: 2rem;
+}
+.signup-form h3,
+.login-form h3 {
+  height: 70px;
+  padding: 1rem;
+  border-radius: 35px;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+}
+.signup-form .form-group,
+.login-form .form-group {
+  margin-bottom: 1.2rem;
+}
+.signup-form .form-group .form-control,
+.login-form .form-group .form-control {
+  height: 50px;
+}
+.signup-form button,
+.login-form button {
+  height: 50px;
+  width: 130px;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+  border-radius: 30px;
+}
+.signup-form button:hover,
+.login-form button:hover {
+  color: #fb4545;
+  border: 1px solid;
+  background-image: unset;
+}
+
+.social-links .link {
+  font-size: 1.5rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #FF7C6E, #F5317F);
+  color: white;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/*# sourceMappingURL=app.css.map */
