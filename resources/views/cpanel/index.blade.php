@@ -21,7 +21,7 @@
 					<div class="icon"><i class="far fa-newspaper"></i></div>
 					<p class="m-0 p-0 text-capitalize">all news</p>
 				</div>
-				<span class="number d-flex align-items-center justify-content-center">22</span>
+				<span class="number d-flex align-items-center justify-content-center">{{ count($posts) }}</span>
 			</a>
 
 			{{-- all categories --}}
@@ -30,7 +30,7 @@
 					<div class="icon"><i class="fas fa-tags"></i></div>
 					<p class="m-0 p-0 text-capitalize">all categories</p>
 				</div>
-				<span class="number d-flex align-items-center justify-content-center">21</span>
+				<span class="number d-flex align-items-center justify-content-center">{{ count($cats) }}</span>
 			</a>
 
 			{{-- all comments --}}
@@ -39,7 +39,7 @@
 					<div class="icon"><i class="fas fa-comments"></i></div>
 					<p class="m-0 p-0 text-capitalize">all comments</p>
 				</div>
-				<span class="number d-flex align-items-center justify-content-center">21</span>
+				<span class="number d-flex align-items-center justify-content-center">0</span>
 			</a>
 
 			{{-- all messages --}}
@@ -48,7 +48,7 @@
 					<div class="icon"><i class="fas fa-envelope-open-text"></i></div>
 					<p class="m-0 p-0 text-capitalize">all messages</p>
 				</div>
-				<span class="number d-flex align-items-center justify-content-center">21</span>
+				<span class="number d-flex align-items-center justify-content-center">0</span>
 			</a>
 
 		</div>

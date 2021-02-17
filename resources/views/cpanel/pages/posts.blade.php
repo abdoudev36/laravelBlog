@@ -40,11 +40,8 @@
 					</div>
 				</div>
 
-				<!-- post body -->
-				<div class="body my-3">{!! substr($post->body, 0, 150) !!}</div>
-
 				<!-- read more link -->
-				<div class="actions d-flex align-items-center">
+				<div class="actions d-flex align-items-center mt-3">
 					{{-- read --}}
 					<a href="" class="read-more text-capitalize d-flex align-items-center justify-content-center text-decoration-none">read</a>
 

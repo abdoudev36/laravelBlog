@@ -44,11 +44,8 @@
 					</div>
 				</div>
 
-				<!-- post body -->
-				<div class="body my-3">{!! substr($post->body, 0, 150) !!}</div>
-
 				<!-- read more link -->
-				<a href="{{ route('post', ['slug'=> $post->slug]) }}" class="read-more text-capitalize d-flex align-items-center justify-content-center text-decoration-none">read more</a>
+				<a href="{{ route('post', ['slug'=> $post->slug]) }}" class="read-more mt-3 text-capitalize d-flex align-items-center justify-content-center text-decoration-none">read</a>
 			</article>
             @endforeach
 

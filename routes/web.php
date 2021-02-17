@@ -56,7 +56,7 @@ Route::get($url.'/categories', [CpanelController::class, 'categories'])->name('c
 Route::get($url.'/comments', [CpanelController::class, 'comments'])->name('cpanel-comments');
 Route::get($url.'/messages', [CpanelController::class, 'messages'])->name('cpanel-messages');
 Route::get($url.'/profile', [CpanelController::class, 'profile'])->name('cpanel-profile');
-Route::get($url.'/profile/update', [CpanelController::class, 'updateProfile'])->name('cpanel-profile-update');
+// Route::get($url.'/profile/update', [CpanelController::class, 'updateProfile'])->name('cpanel-profile-update');
 
 /*
 |--------------------------------------------------------------------------

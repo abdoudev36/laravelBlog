@@ -17,7 +17,7 @@
 			<article class="post bg-white shadow-sm text-decoration-none d-flex flex-column justify-content-center">
 
 				<!-- post title -->
-				<h3 class="title text-uppercase p-0 m-0"> {{ $post->title }} </h3>
+				<h3 class="title text-uppercase p-0 m-0 mt-4"> {{ $post->title }} </h3>
 
 				<!-- bottom info -->
 				<div class="info d-flex align-items-center mt-3">
@@ -34,7 +34,7 @@
 				</div>
 
 				<!-- post body -->
-				<div class="body mt-5">{!! $post->body !!}</div>
+				<div class="body mt-4">{!! $post->body !!}</div>
 			</article>
 		</div>
 

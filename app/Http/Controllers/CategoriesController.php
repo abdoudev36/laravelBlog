@@ -7,6 +7,11 @@ use App\Models\Category;
 
 class CategoriesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     /**
 	 *@ create category
 	 */

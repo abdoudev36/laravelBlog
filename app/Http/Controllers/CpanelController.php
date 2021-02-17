@@ -18,7 +18,9 @@ class CpanelController extends Controller
     */
     public function index()
     {
-    	return view('cpanel.index');
+        $cats   = Category::all();
+        $posts  = Post::all();
+    	return view('cpanel.index', compact('cats', 'posts'));
     }
 
     /*

@@ -19,7 +19,7 @@
 			</ul>
 
 			{{-- update button --}}
-			<a href="{{ route('cpanel-profile-update') }}" class="btn mt-3 text-capitalize d-flex align-items-center justify-content-center">update profile</a>
+			{{-- <a href="{{ route('cpanel-profile-update') }}" class="btn mt-3 text-capitalize d-flex align-items-center justify-content-center">update profile</a> --}}
 		</div>
 	</section>
 @endsection
